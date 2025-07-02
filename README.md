@@ -3,6 +3,7 @@
 Repo này ghi lại quá trình học linux: [Linux](https://roadmap.sh/linux)
 
 1. Điều hướng cơ bản
+   ![Linux file system](mdassets/linux-filesystem-hierarchy.png)
    ```pwd```: Cho biết vị trí hiện tại
    * ```pwd```
 
