@@ -2,3 +2,10 @@
 
 Repo này ghi lại quá trình học linux: [Linux](https://roadmap.sh/linux)
 
+1. Điều hướng cơ bản
+   ```pwd```: Cho biết vị trí hiện tại
+   * ```pwd```
+
+   ```cd```: Để di chuyển sang các thư mục khác
+   * ```cd Home```
+
