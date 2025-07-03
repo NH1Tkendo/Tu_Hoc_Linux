@@ -34,8 +34,9 @@ b) Di chuyển file
    ```cp```: copy file hoặc thư 
    * ```cp file1.txt backup.txt```: Copy file này và đổi tên trong cùng một thư
    * ```cp file1.txt /home/user/Documents/```: Copy file hiện tại vào thư mục
-   * ```cp -r myfolder newfolder```: Copy một folder vào đường dẫn tương ứng, -r(recursion) là để copy folder 
-c) Tạo và xóa tệp tin hoặc thư
+   * ```cp -r myfolder newfolder```: Copy một folder vào đường dẫn tương ứng, -r(recursion) là để copy folder
+     
+c) Tạo và xóa tệp tin hoặc thư mục 
 
    ```touch```: Tạo một tệp tin rỗng, tương tự như ```right click -> new -> text document``` bên windows
    * ```touch hello.txt```: Tạo file hello.txt
@@ -46,5 +47,37 @@ c) Tạo và xóa tệp tin hoặc thư
 
    ```rm```: Xóa 1 file hoặc thư mục (remove)
    * ```rm hello.txt```: Xóa 1 file
-   * ```rm -r hello```: Xóa 1 thư 
+   * ```rm -r hello```: Xóa 1 thư
+     
+d) Cấu trúc thư mục hệ thống Linux 
+
+   ```whoami```: In ra tên user đang dùng
+
+   ```cat```: Xuất nội dung của file lên màn hình console, cat = concatenate
+   * ```cat hello.txt```
+
+   ```adduser```: Thêm 1 user mới 
+   * ```adduser user_name```
+
+   ```which```: Hiển thị dường dẫn đầy đủ của một lệnh
+   * ```which ten_lenh```
+   
+   Mọi thứ trong Linux đều là một tệp tin
+
+   ![Linux file system](md_assets/linux-filesystem-hierarchy.png)
+
+   * ```/```: Thư mục gốc của hệ thống
+   * ```bin```: Chứa các file thực thi (Binary excutables), các chương trình có thể chạy được từ dòng
+   * ```sbin```: Chứa các file thực thi của hệ
+   * ```user```: Chứa dữ liệu và chương trình của người
+   * ```boot```: File hệ
+   * ```var```: Nơi chứa dữ liệu có thể thay đổi theo thời gian (variable data)
+   * ```tmp```: Nơi chứa các file tạm (temporary)
+   * ```lib```: Nơi chứa các thư viện hệ thống cần thiết để chạy các chương trình cơ
+   * ```home```: Thư mục chứa các
+   * ```root```: folder chứa user gốc
+   * ```dev```: Đại diện cho các thiết bị của phần cứng dưới dạng device
+   * ```etc```: Nơi chứa các file cấu hình của hệ thống
+   * ```mnt``` và ```media```: Dùng để mount bằng tay các thiết cố định hoặc mount tự động cho các thiết bị 
+   * ```opt```: 
 
