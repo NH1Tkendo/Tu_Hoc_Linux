@@ -2,7 +2,8 @@
 
 Repo này ghi lại quá trình học linux: [Linux](https://roadmap.sh/linux)
 
-0. Tổng quan 
+0. Tổng quan
+
 **Hệ điều hành**: Một phầm mềm hệ thống quản lý phần cứng và phần và cung cấp các dịch cho các chương trình máy 
 
 **Đơn giản hơn** là phần mềm đóng vai trò trung gian giữa phần cứng máy tính và người dùng. Nó cung cấp giao diện người dùng và kiểm soát các phần cứng để phần mềm có thể hoạt 
@@ -65,8 +66,20 @@ Repo này ghi lại quá trình học linux: [Linux](https://roadmap.sh/linux)
 
   Linux: Hệ thống file được dùng là ext4, XFS, Btrfs
 
-  Window: Hệ thống file được dùng là NTFS và 
-1. Điều hướng cơ bản
+  Window: Hệ thống file được dùng là NTFS và
+
+1. Các phím tắt trong Linux
+  * ```cd ~```: Giúp trỏ về thư mục home một cách nhanh
+  * Dấu backtick dùng để chạy một lệnh bên trong một lệnh khác, và trả lại kết quả đầu ra dưới dạng chuỗi.
+
+    Ví dụ: ```cd `dirname $0```
+  * Dấu ```!``` dùng để chạy lại lệnh gần nhất
+  * Dấu ```@```, ```%```,
+  * Dấu ```#``` để comment các đoạn mã không sử
+  * Dấu ```^``` ám chỉ bắt đầu của 1 dòng
+  * Dấu ```&``` chạy ngầm 1 tác 
+    
+2. Điều hướng cơ bản
 a) Các lệnh di chuyển cơ bản
    ![Linux file system](md_assets/linux-filesystem-hierarchy.png)
    
