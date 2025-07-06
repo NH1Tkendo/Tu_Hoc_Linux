@@ -2,8 +2,71 @@
 
 Repo này ghi lại quá trình học linux: [Linux](https://roadmap.sh/linux)
 
+0. Tổng quan 
+**Hệ điều hành**: Một phầm mềm hệ thống quản lý phần cứng và phần và cung cấp các dịch cho các chương trình máy 
+
+**Đơn giản hơn** là phần mềm đóng vai trò trung gian giữa phần cứng máy tính và người dùng. Nó cung cấp giao diện người dùng và kiểm soát các phần cứng để phần mềm có thể hoạt 
+
+**Các loại hệ điều hành**:
+* HDH Desktop: Linux (Ubunty), Windows, 
+* HDH Server: Window Server, Linux distribution, Red Hat enterprise Linux
+* HDH mobile: Android, iOS
+* HDH nhúng: router, smart TV...
+* HDH thời gian thực: Thiết bị y tế, firewall...
+
+**Linux**: HDH mã nguồn mở, có thể được tùy chỉnh bởi người dùng để tạo ra các phiên bản khác (Các phiên bản này gọi là bản phân phối).
+
+**Tại sao lại học Linux**:
+* Thường xuyên được sử dụng trong server và điện toán đám
+* Hỗ trợ CLi mạnh mẽ
+* Xử lý các tác vụ nhanh
+* Bảo mật tốt
+* Có thể tùy chỉnh do tính chất mã nguồn mở của
+* Cộng đồng lớn
+* Hiểu sâu hơn về các hệ điều hành
+
+**Linux vs. Windows**
+* Tính sẵn có của mã nguồn
+  
+  Linux: Mã nguồn mở
+
+  Window: phần mềm độc
+* Chi phí:
+  
+  Linux: Miến phí
+
+  Window: Tốn tiền
+* Giao diện người dùng:
+  
+  Linux: Có hỗ trợ
+
+  Window: Hỗ trợ mạnh mẽ
+* Giao diện dòng lệnh:
+  
+  Linux: Cốt lõi của Linux
+
+  Window: Có hỗ trợ
+* Cài đặt phần mềm và quản lý gói
+  
+  Linux: Dùng các phần mềm quản lý gói như APT
+
+  Window: Sử dụng các file như (.exe)
+* Bảo mật
+  
+  Linux: Bảo mật tốt
+
+  Window: Dễ bị tấn
+* Tính ổn định và hiệu năng của hệ thống
+
+  Linux: Rất ổn định và hiệu năng
+
+  Window: Ổn định lúc đầu nhưng mất dần tính này về sau
+* Hệ thống tập tin:
+
+  Linux: Hệ thống file được dùng là ext4, XFS, Btrfs
+
+  Window: Hệ thống file được dùng là NTFS và 
 1. Điều hướng cơ bản
-   
 a) Các lệnh di chuyển cơ bản
    ![Linux file system](md_assets/linux-filesystem-hierarchy.png)
    
